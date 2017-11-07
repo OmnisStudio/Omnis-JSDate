@@ -1,0 +1,2 @@
+On evClick
+	Calculate iCalendarDate as dadd(kYear,1,iCalendarDate)

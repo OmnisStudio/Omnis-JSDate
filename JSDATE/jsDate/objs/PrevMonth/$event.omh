@@ -1,0 +1,2 @@
+On evClick
+	Calculate iCalendarDate as dadd(kMonth,-1,iCalendarDate)

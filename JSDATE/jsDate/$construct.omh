@@ -1,0 +1,10 @@
+;  Enter your initialization code here
+
+Calculate iCalendarDate as #D
+
+Do iDateStyles.$define(iDateStyle,iDateConstant,iDateTodayBtn,iDateNavBtns)
+Do iDateStyles.$add('Calendar',kJSDatePickerStyleCalendar,kTrue,kTrue)
+Do iDateStyles.$add('Date',kJSDatePickerStyleDate,kTrue,kFalse)
+Do iDateStyles.$add('DateTime',kJSDatePickerStyleDateTime,kTrue,kFalse)
+Do iDateStyles.$add('Time',kJSDatePickerStyleTime,kFalse,kFalse)
+Do iDateStyles.$line.$assign(1)

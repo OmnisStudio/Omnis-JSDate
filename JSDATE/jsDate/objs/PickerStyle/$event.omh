@@ -1,0 +1,17 @@
+On evClick
+	Do iDateStyles.$loadcols()
+	Do $cinst.$objs.Calendar.$datestyle.$assign(iDateConstant)
+	
+	Do $cinst.$objs.MonthAndYear.$visible.$assign(iDateNavBtns)
+	Do $cinst.$objs.PrevMonth.$visible.$assign(iDateNavBtns)
+	Do $cinst.$objs.PrevYear.$visible.$assign(iDateNavBtns)
+	Do $cinst.$objs.NextMonth.$visible.$assign(iDateNavBtns)
+	Do $cinst.$objs.NextYear.$visible.$assign(iDateNavBtns)
+	
+	
+	
+	
+	
+	
+	;
+	Do $cinst.$objs.Today.$visible.$assign(iDateTodayBtn)
